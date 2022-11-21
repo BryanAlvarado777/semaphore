@@ -1,0 +1,28 @@
+#semaphore {
+    background-color: black;
+    border-radius: 25px;
+    height:340px;
+    width: 100px;
+    padding: 10px;
+}
+.light, .light div{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    margin-top: 10px;
+}
+.light[state="1"] div{
+    background-color: rgba(0,0,0,0);
+}
+.light div{
+    background-color: rgba(0,0,0,.6);
+}
+#light-green{
+    background-color: green;
+}
+#light-orange{
+    background-color: orange;
+}
+#light-red{
+    background-color: red;
+}
